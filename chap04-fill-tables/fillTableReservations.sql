@@ -1,0 +1,10 @@
+DELETE FROM Reservations;
+INSERT INTO Reservations VALUES (1, 105, 1,  '03/11/2016', '18/11/2016');
+INSERT INTO Reservations VALUES (2, 512, 10, '06/11/2016', '14/11/2016');
+INSERT INTO Reservations VALUES (3, 610, 4,  '17/11/2016', '02/12/2016');
+INSERT INTO Reservations VALUES (4, 409, 2,  '28/11/2016', '01/12/2016');
+INSERT INTO Reservations VALUES (5, 207, 3,  '16/12/2016', '21/12/2016');
+INSERT INTO Reservations VALUES (6, 706, 6,  '26/12/2016', '05/01/2017');
+INSERT INTO Reservations VALUES (7, 103, 8,  '28/12/2016', '03/12/2016');
+COMMIT;
+
