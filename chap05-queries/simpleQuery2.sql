@@ -1,5 +1,5 @@
 --SELECT AVERAGE PRICE FOR EACH TYPE OF COMFORT
-SELECT r_comfort AS "Комфортность", AVG(r_price) AS "Средняя цена"
+SELECT r_comfort AS "РљРѕРјС„РѕСЂС‚РЅРѕСЃС‚СЊ", AVG(r_price) AS "РЎСЂРµРґРЅСЏСЏ С†РµРЅР°"
 FROM Rooms
 GROUP BY r_comfort;
 
