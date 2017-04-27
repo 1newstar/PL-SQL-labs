@@ -1,0 +1,3 @@
+--EXAMPLE OF THE EXECUTION OF PROCEDURE Accom_Delete
+EXECUTE Accom_Delete(13);
+

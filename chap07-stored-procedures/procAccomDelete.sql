@@ -1,0 +1,12 @@
+--CREATE PROCEDURE Accom_Delete WHICH DELETES RECORD FROM TABLE Accommodations
+--WITH PARAMETER @p_accom_ID
+
+CREATE OR REPLACE PROCEDURE Accom_Delete(
+  p_accom_ID IN NUMBER DEFAULT NULL)
+IS
+BEGIN
+	DELETE FROM Accommodations
+	WHERE accom_ID = p_accom_ID;
+  COMMIT;
+END Accom_Delete;
+
